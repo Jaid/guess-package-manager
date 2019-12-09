@@ -4,31 +4,16 @@
 Detects the packager manager used in a Node project. Currently supports npm, pnpm and yarn.
 
 ## Installation
-<a href='https://npmjs.com/package/guess-package-manager'><img alt='npm logo' src='https://raw.githubusercontent.com/npm/logos/master/npm%20logo/npm-logo-red.png' height=16/></a>
+<a href='https://npmjs.com/package/guess-package-manager'><img alt='npm logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/npm.png'/></a>
 ```bash
-npm install --save guess-package-manager@^
+npm install --save guess-package-manager@^1.1.3
 ```
-<a href='https://yarnpkg.com/package/guess-package-manager'><img alt='Yarn logo' src='https://raw.githubusercontent.com/yarnpkg/assets/master/yarn-kitten-full.png' height=24/></a>
+<a href='https://yarnpkg.com/package/guess-package-manager'><img alt='Yarn logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/yarn.png'/></a>
 ```bash
-yarn add guess-package-manager@^
+yarn add guess-package-manager@^1.1.3
 ```
 
 
-## Try it out
-Open a browser's JavaScript console and execute:
-
-```javascript
-const scriptElement = document.createElement("script");
-scriptElement.setAttribute("type","text/javascript");
-scriptElement.setAttribute("src","https://unpkg.com/guess-package-manager@1.1.3");
-document.querySelector("head").appendChild(scriptElement);
-```
-
-The module is now loaded in a variable.
-
-```javascript
-typeof guess-package-manager.default
-```
 
 ## Documentation
 Converts an array to an object with static keys and customizable values
