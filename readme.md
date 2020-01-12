@@ -1,39 +1,60 @@
 # guess-package-manager
 
 
-Detects the packager manager used in a Node project. Currently supports npm, pnpm and yarn.
+<a href="https://raw.githubusercontent.com/Jaid/guess-package-manager/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/guess-package-manager?style=flat-square" alt="License"/></a>  
+<a href="https://actions-badge.atrox.dev/Jaid/guess-package-manager/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Fguess-package-manager%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/guess-package-manager/commits"><img src="https://img.shields.io/github/commits-since/Jaid/guess-package-manager/v1.1.3?style=flat-square&logo=github" alt="Commits since v1.1.3"/></a> <a href="https://github.com/Jaid/guess-package-manager/commits"><img src="https://img.shields.io/github/last-commit/Jaid/guess-package-manager?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/guess-package-manager/issues"><img src="https://img.shields.io/github/issues/Jaid/guess-package-manager?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/guess-package-manager"><img src="https://img.shields.io/npm/v/guess-package-manager?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/guess-package-manager/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/guess-package-manager?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/guess-package-manager"><img src="https://img.shields.io/npm/dm/guess-package-manager?style=flat-square&logo=npm" alt="Downloads"/></a>
+
+**Detects the packager manager used in a Node project. Currently supports npm, pnpm and yarn.**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Installation
-<a href='https://npmjs.com/package/guess-package-manager'><img alt='npm logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/npm.png'/></a>
+<a href="https://npmjs.com/package/guess-package-manager"><img src="https://img.shields.io/badge/npm-guess--package--manager-C23039?style=flat-square&logo=npm" alt="guess-package-manager on npm"/></a>
 ```bash
 npm install --save guess-package-manager@^1.1.3
 ```
-<a href='https://yarnpkg.com/package/guess-package-manager'><img alt='Yarn logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/yarn.png'/></a>
+<a href="https://yarnpkg.com/package/guess-package-manager"><img src="https://img.shields.io/badge/Yarn-guess--package--manager-2F8CB7?style=flat-square&logo=yarn&logoColor=white" alt="guess-package-manager on Yarn"/></a>
 ```bash
 yarn add guess-package-manager@^1.1.3
 ```
 
 
 
-## Documentation
-Converts an array to an object with static keys and customizable values
 
-**Kind**: Exported function  
-**Returns**: <code>&quot;npm&quot;</code> \| <code>&quot;pnpm&quot;</code> \| <code>&quot;yarn&quot;</code> - A generated object based on the array input  
 
-| Param | Type | Description |
-| --- | --- | --- |
-| directory | <code>string</code> | Project directory that uses a package manager |
 
-**Example**  
-```javascript
-guessPackageManager()
-// npm
+
+
+## Development
+
+
+
+Setting up:
+```bash
+git clone git@github.com:Jaid/guess-package-manager.git
+cd guess-package-manager
+npm install
 ```
-**Example**  
-```javascript
-guessPackageManager("/home/me/development/yarn-project")
-// yarn
+Testing:
+```bash
+npm run test:dev
+```
+Testing in production environment:
+```bash
+npm run test
 ```
 
 
@@ -41,7 +62,7 @@ guessPackageManager("/home/me/development/yarn-project")
 ```text
 MIT License
 
-Copyright © 2019, Jaid <jaid.jsx@gmail.com> (github.com/jaid)
+Copyright © 2020, Jaid <jaid.jsx@gmail.com> (github.com/jaid)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
