@@ -1,9 +1,9 @@
 # guess-package-manager
 
 
-<a href="https://raw.githubusercontent.com/Jaid/guess-package-manager/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/guess-package-manager?style=flat-square" alt="License"/></a>  
-<a href="https://actions-badge.atrox.dev/Jaid/guess-package-manager/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Fguess-package-manager%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/guess-package-manager/commits"><img src="https://img.shields.io/github/commits-since/Jaid/guess-package-manager/v1.1.3?style=flat-square&logo=github" alt="Commits since v1.1.3"/></a> <a href="https://github.com/Jaid/guess-package-manager/commits"><img src="https://img.shields.io/github/last-commit/Jaid/guess-package-manager?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/guess-package-manager/issues"><img src="https://img.shields.io/github/issues/Jaid/guess-package-manager?style=flat-square&logo=github" alt="Issues"/></a>  
-<a href="https://npmjs.com/package/guess-package-manager"><img src="https://img.shields.io/npm/v/guess-package-manager?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/guess-package-manager/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/guess-package-manager?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/guess-package-manager"><img src="https://img.shields.io/npm/dm/guess-package-manager?style=flat-square&logo=npm" alt="Downloads"/></a>
+<a href="https://raw.githubusercontent.com/jaid/guess-package-manager/master/license.txt"><img src="https://img.shields.io/github/license/jaid/guess-package-manager?style=flat-square" alt="License"/></a> <a href="https://github.com/sponsors/jaid"><img src="https://img.shields.io/badge/<3-Sponsor-FF45F1?style=flat-square" alt="Sponsor guess-package-manager"/></a>
+<a href="https://actions-badge.atrox.dev/jaid/guess-package-manager/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2Fjaid%2Fguess-package-manager%2Fbadge" alt="Build status"/></a> <a href="https://github.com/jaid/guess-package-manager/commits"><img src="https://img.shields.io/github/commits-since/jaid/guess-package-manager/v1.1.3?style=flat-square&logo=github" alt="Commits since v1.1.3"/></a> <a href="https://github.com/jaid/guess-package-manager/commits"><img src="https://img.shields.io/github/last-commit/jaid/guess-package-manager?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/jaid/guess-package-manager/issues"><img src="https://img.shields.io/github/issues/jaid/guess-package-manager?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/guess-package-manager"><img src="https://img.shields.io/npm/v/guess-package-manager?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/jaid/guess-package-manager/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/guess-package-manager?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/guess-package-manager"><img src="https://img.shields.io/npm/dm/guess-package-manager?style=flat-square&logo=npm" alt="Downloads"/></a>
 
 **Detects the packager manager used in a Node project. Currently supports npm, pnpm and yarn.**
 
@@ -37,14 +37,13 @@ yarn add guess-package-manager@^1.1.3
 
 
 
-
 ## Development
 
 
 
 Setting up:
 ```bash
-git clone git@github.com:Jaid/guess-package-manager.git
+git clone git@github.com:jaid/guess-package-manager.git
 cd guess-package-manager
 npm install
 ```
