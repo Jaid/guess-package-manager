@@ -33,5 +33,9 @@
   },
   "name": "guess-package-manager",
   "description": "Detects the packager manager used in a Node project. Currently supports npm, pnpm and yarn.",
-  "funding": "https://github.com/sponsors/jaid"
+  "funding": "https://github.com/sponsors/jaid",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaid/guess-package-manager"
+  }
 }
