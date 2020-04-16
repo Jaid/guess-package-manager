@@ -37,5 +37,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jaid/guess-package-manager"
-  }
+  },
+  "homepage": null,
+  "keywords": []
 }
