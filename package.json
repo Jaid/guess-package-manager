@@ -39,5 +39,14 @@
     "url": "https://github.com/jaid/guess-package-manager"
   },
   "homepage": null,
-  "keywords": []
+  "keywords": [
+    "lib",
+    "library",
+    "npm",
+    "package-manager",
+    "pnpm",
+    "util",
+    "utility",
+    "yarn"
+  ]
 }
